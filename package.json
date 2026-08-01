@@ -1,0 +1,10 @@
+{
+  "name": "ourbazar-world",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix frontend run dev -- --host 127.0.0.1 --port 5173",
+    "dev:frontend": "npm --prefix frontend run dev -- --host 127.0.0.1 --port 5173",
+    "dev:backend": "npm --prefix Backend run dev",
+    "start:backend": "npm --prefix Backend run start"
+  }
+}
